@@ -29,7 +29,7 @@ body {color: blue;
 div.main {
   background-color: lightgray; 
   width: 95%; margin-left:5%; 
-  clear:left
+  clear:left; 
 }
 
 #vote {
@@ -52,7 +52,7 @@ div.main {
   transform: rotate(20eg);
 }
 
-#shuffle{
+#shuffle, #home{
   -ms-transform: rotate(90deg); /* IE 9 */
   -webkit-transform: rotate(90deg); /* Safari */
   transform: rotate(90deg);
@@ -66,6 +66,10 @@ div.main {
   cursor: pointer;
   letter-spacing:2px;
   border-radius: 0px 0px 15px 15px; 
+}
+
+#home {
+  right: 0;
 }
 
 #shuffle:hover {
@@ -122,7 +126,7 @@ div.content {
   background: #E9F1FA;
   color: navy;
   padding: 10px;
-  overflow: hidden;
+  overflow: auto;
 }
 div.content > h1 {
   text-align: center;
@@ -145,7 +149,7 @@ div.content > div {
 }
 div.tgallery {
   width: 25%;
-  height: 10vh;
+  height: 9vh;
   margin-right: 5%;
   text-align: center;
 }
